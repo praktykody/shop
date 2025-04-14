@@ -1,0 +1,14 @@
+# node
+node_modules
+dist
+
+# system
+.DS_Store
+Thumbs.db
+
+# env
+.env
+.env.*.local
+
+# VS Code
+.vscode

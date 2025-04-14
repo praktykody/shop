@@ -1,0 +1,23 @@
+{
+  "name": "mini-sklep",
+  "version": "1.0.0",
+  "description": "Prosty sklep internetowy w Vue 3",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.0",
+    "pinia": "^2.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
