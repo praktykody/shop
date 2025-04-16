@@ -8,8 +8,4 @@ export default defineConfig({
       '@': '/src', // alias do łatwiejszego importowania
     }
   },
-  server: {
-    port: 3000, // domyślny port dla aplikacji
-    open: true, // automatycznie otwiera przeglądarkę
-  }
 })
