@@ -1,15 +1,6 @@
 <template>
   <div class="about">
 
-    <!DOCTYPE html>
-<html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O nas</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
   <section class="hero">
     <h1>O nas</h1>
@@ -21,36 +12,31 @@
 
   <section class="gallery">
     <div class="item">
-      <img src="https://via.placeholder.com/400x250" alt="Egzotyczne">
+      <img src="/orange.webp" alt="Egzotyczne">
       <h2>Egzotyczne</h2>
       <a href="#" class="btn"a>Więcej</a>
     </div>
     <div class="item">
-      <img src="https://via.placeholder.com/400x250" alt="Pestkowe">
+      <img src="/cherry.webp" alt="Pestkowe">
       <h2>Pestkowe</h2>
       <a href="#" class="btn">Więcej</a>
     </div>
     <div class="item">
-      <img src="https://via.placeholder.com/400x250" alt="Jagodowe">
+      <img src="/strawberry.webp" alt="Jagodowe">
       <h2>Jagodowe</h2>
       <a href="#" class="btn">Więcej</a>
     </div>
     <div class="item">
-      <img src="https://via.placeholder.com/400x250" alt="Ziarnkowe">
+      <img src="/apple.webp" alt="Ziarnkowe">
       <h2>Ziarnkowe</h2>
       <a href="#" class="btn">Więcej</a>
     </div>
-  </section>
-
-</body>
-</html>
 
   </div>
+
 </template>
 
 <style lang="scss" scoped>
-
-body {font-family: Arial;}
 
 .intro-text {
   max-width: 800px;
@@ -61,7 +47,7 @@ body {font-family: Arial;}
 }
 .hero {
   position: relative;
-  background-image: url('https://via.placeholder.com/1920x500');
+  background-image: url('/owoce-glowne-zdjecie.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -91,7 +77,7 @@ body {font-family: Arial;}
 }
 
 .item img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 8px;
 }
@@ -102,6 +88,7 @@ body {font-family: Arial;}
 }
 
 .btn {
+  cursor: pointer;
   display: inline-block;
   padding: 10px 20px;
   background-color:rgb(234, 200, 10);
@@ -113,9 +100,9 @@ body {font-family: Arial;}
 }
 
 .btn:hover {
-  background-color:rgb(236, 161, 0);
+  background-color:rgb(236, 28, 0);
 }
 .about{
   border:2px dashed red;
+  font-family: Arial;
 }
-</style>
