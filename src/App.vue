@@ -2,17 +2,38 @@
   <div id="app">
     <router-view></router-view> <!-- To tutaj będą wyświetlane widoki -->
   </div>
+  <Navbar />
 </template>
 
 <script>
+
+import Navbar from './components/Navbar.vue' 
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Navbar 
+  }
 }
+
 </script>
 
-<style scoped>
+
+
+<style>
+
+body{
+  margin:0;
+}
+
 #app {
   text-align: center;
-  margin-top: 50px;
+
 }
+
+.navbar{
+  border: 1px solid red;
+  margin-top: 10px;
+}
+
 </style>
