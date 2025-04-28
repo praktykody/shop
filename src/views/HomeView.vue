@@ -1,10 +1,10 @@
 <template>
   <div class="home-view">
-  <h1 class="banner">THE BEST GROCERY FOOD</h1>
-  <div class="products">
-  <h2 class="title">Product list:</h2>
-  <ProductList :products="store.products" />
-  </div>
+    <h1 class="banner">THE BEST GROCERY FOOD</h1>
+    <div class="products">
+      <h2 class="title">Product list:</h2>
+      <ProductList :products="store.products" />
+    </div>
   </div>
 </template>
 
@@ -24,10 +24,22 @@
   font-size: 25px;
   color: #006600
   }
-  //.products{
-  //  display: flex;
-  //  flex-direction: column;
-  //}
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .card{
+      border:2px dashed red;
+      position:relative;
+      
+      &:nth-child(even){
+        border:2px dashed green;
+        top: -50px;
+      }
+
+    } 
+
+  }
 }
 </style>
 
