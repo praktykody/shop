@@ -42,7 +42,6 @@
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
-  border:2px dashed red;
 }
 .hero {
   position: relative;
@@ -72,7 +71,6 @@
 .item {
   width: 400px;
   text-align: center;
-  border:2px dashed red;
 }
 
 .item img {
@@ -102,7 +100,6 @@
   background-color:rgb(236, 28, 0);
 }
 .about{
-  border:2px dashed red;
   font-family: Arial;
 }
 
