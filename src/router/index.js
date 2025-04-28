@@ -8,6 +8,5 @@ export default createRouter({
   routes: [
     { path: '/', component: HomeView },
     { path: '/edit/:id', component: EditView },
-    
   ]
 })

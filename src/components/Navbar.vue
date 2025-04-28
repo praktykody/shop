@@ -3,8 +3,8 @@
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/card">Card</router-link></li>
-        <li><router-link to="/profile">Profile</router-link></li>
+        <li><router-link to="#">Card</router-link></li>
+        <li><router-link to="#">Profile</router-link></li>
       </ul>
     </nav>
   </template>
@@ -13,14 +13,12 @@
   
   </script>
   
-  <style scoped>
-  .navbar {
+  <style scoped lang="scss">
+ .navbar {
+  background-color: hsl(71, 84%, 53%);
+  padding: 1rem;
 
-    background-color: hsl(71, 84%, 53%);
-    padding: 1rem;
-  }
-  
-  .navbar ul {
+  ul {
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -28,18 +26,19 @@
     padding: 0;
     justify-content: center;
   }
-  
-  .navbar li {
+
+  li {
     color: rgb(73, 131, 131);
   }
-  
-  .navbar a {
+
+  a {
     color: hsl(0, 0%, 3%);
     text-decoration: none;
     font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
-  
-  .navbar a:hover {
-    text-decoration: underline;
-  }
+}
   </style>
