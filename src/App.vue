@@ -10,9 +10,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+
+body{
+  margin:0;
+}
+
 #app {
   text-align: center;
-  margin-top: 50px;
 }
+
 </style>
