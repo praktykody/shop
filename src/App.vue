@@ -20,10 +20,14 @@ export default {
 
 
 
-<style scoped>
+<style>
+
+body{
+  margin:0;
+}
+
 #app {
   text-align: center;
-  margin-top: 50px;
 
 }
 
@@ -31,4 +35,5 @@ export default {
   border: 1px solid red;
   margin-top: 10px;
 }
+
 </style>
