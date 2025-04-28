@@ -1,39 +1,38 @@
 <template>
   <div class="about">
+    
+    <section class="hero">
+      <h1>O nas</h1>
+    </section>
 
+    <div class="intro-text">
+      <p>Jesteśmy rodzinnym sklepem z owocami, który od lat dostarcza świeże i zdrowe produkty prosto od lokalnych sadowników. Naszą misją jest oferowanie najwyższej jakości owoców sezonowych, które zachwycają smakiem i aromatem. Wierzymy, że natura daje to, co najlepsze — dlatego stawiamy na świeżość, jakość i uczciwość wobec naszych klientów.</p>
+    </div>
 
-  <section class="hero">
-    <h1>O nas</h1>
-  </section>
+    <section class="gallery">
+      <div class="item">
+        <img src="/orange.webp" alt="Egzotyczne">
+        <h2>Egzotyczne</h2>
+        <a href="#" class="btn"a>Więcej</a>
+      </div>
+      <div class="item">
+        <img src="/cherry.webp" alt="Pestkowe">
+        <h2>Pestkowe</h2>
+        <a href="#" class="btn">Więcej</a>
+      </div>
+      <div class="item">
+        <img src="/strawberry.webp" alt="Jagodowe">
+        <h2>Jagodowe</h2>
+        <a href="#" class="btn">Więcej</a>
+      </div>
+      <div class="item">
+        <img src="/apple.webp" alt="Ziarnkowe">
+        <h2>Ziarnkowe</h2>
+        <a href="#" class="btn">Więcej</a>
+      </div>
+    </section>
 
-  <div class="intro-text">
-    <p>Jesteśmy rodzinnym sklepem z owocami, który od lat dostarcza świeże i zdrowe produkty prosto od lokalnych sadowników. Naszą misją jest oferowanie najwyższej jakości owoców sezonowych, które zachwycają smakiem i aromatem. Wierzymy, że natura daje to, co najlepsze — dlatego stawiamy na świeżość, jakość i uczciwość wobec naszych klientów.</p>
   </div>
-
-  <section class="gallery">
-    <div class="item">
-      <img src="/orange.webp" alt="Egzotyczne">
-      <h2>Egzotyczne</h2>
-      <a href="#" class="btn"a>Więcej</a>
-    </div>
-    <div class="item">
-      <img src="/cherry.webp" alt="Pestkowe">
-      <h2>Pestkowe</h2>
-      <a href="#" class="btn">Więcej</a>
-    </div>
-    <div class="item">
-      <img src="/strawberry.webp" alt="Jagodowe">
-      <h2>Jagodowe</h2>
-      <a href="#" class="btn">Więcej</a>
-    </div>
-    <div class="item">
-      <img src="/apple.webp" alt="Ziarnkowe">
-      <h2>Ziarnkowe</h2>
-      <a href="#" class="btn">Więcej</a>
-    </div>
-
-  </div>
-
 </template>
 
 <style lang="scss" scoped>
@@ -106,3 +105,6 @@
   border:2px dashed red;
   font-family: Arial;
 }
+
+</style>
+
