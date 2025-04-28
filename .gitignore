@@ -1,6 +1,6 @@
 # node
 node_modules
-dist
+# dist
 
 # system
 .DS_Store

@@ -2,7 +2,7 @@
     <nav class="navbar">
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="#">About</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
         <li><router-link to="#">Card</router-link></li>
         <li><router-link to="#">Profile</router-link></li>
       </ul>
@@ -20,6 +20,9 @@
     background-color: hsl(71, 84%, 53%);
     padding: 1rem;
     margin: auto;
+    position:fixed;
+    bottom:0;
+    width:100%;
 
   ul {
     list-style: none;

@@ -29,11 +29,9 @@
     grid-template-columns: 1fr 1fr;
 
     .card{
-      border:2px dashed red;
       position:relative;
       
       &:nth-child(even){
-        border:2px dashed green;
         top: -50px;
       }
 
