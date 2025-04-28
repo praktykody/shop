@@ -15,8 +15,11 @@
   
   <style scoped lang="scss">
  .navbar {
-  background-color: hsl(71, 84%, 53%);
-  padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(71, 84%, 53%);
+    padding: 1rem;
+    margin: auto;
 
   ul {
     list-style: none;
